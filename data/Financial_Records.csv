@@ -1,0 +1,21 @@
+Quarter,Year,Revenue,Expenses,Net_Profit,Department,Region,Growth_Rate
+Q1,2025,1250000,890000,360000,Sales,North America,5.2
+Q1,2025,870000,620000,250000,Engineering,North America,3.8
+Q1,2025,340000,290000,50000,Marketing,Europe,2.1
+Q1,2025,560000,410000,150000,Operations,Asia Pacific,4.5
+Q2,2025,1380000,920000,460000,Sales,North America,10.4
+Q2,2025,910000,650000,260000,Engineering,North America,4.6
+Q2,2025,390000,310000,80000,Marketing,Europe,14.7
+Q2,2025,610000,430000,180000,Operations,Asia Pacific,8.9
+Q3,2025,1520000,980000,540000,Sales,North America,10.1
+Q3,2025,950000,680000,270000,Engineering,North America,4.4
+Q3,2025,420000,330000,90000,Marketing,Europe,7.7
+Q3,2025,650000,450000,200000,Operations,Asia Pacific,6.6
+Q4,2025,1690000,1050000,640000,Sales,North America,11.2
+Q4,2025,1010000,720000,290000,Engineering,North America,6.3
+Q4,2025,480000,360000,120000,Marketing,Europe,14.3
+Q4,2025,710000,480000,230000,Operations,Asia Pacific,9.2
+Q1,2026,1780000,1100000,680000,Sales,North America,5.3
+Q1,2026,1060000,750000,310000,Engineering,North America,5.0
+Q1,2026,520000,380000,140000,Marketing,Europe,8.3
+Q1,2026,760000,510000,250000,Operations,Asia Pacific,7.0

@@ -1,0 +1,9 @@
+pymupdf==1.25.4
+fpdf2==2.8.3
+pandas==2.2.3
+chromadb==0.6.3
+sentence-transformers==3.4.1
+openai==1.82.0
+python-dotenv==1.1.0
+jupyter==1.1.1
+ipykernel==6.29.5

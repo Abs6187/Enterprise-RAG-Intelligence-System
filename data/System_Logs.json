@@ -1,0 +1,98 @@
+[
+  {
+    "timestamp": "2026-01-15T08:32:11Z",
+    "error_code": "ERR-1001",
+    "severity": "CRITICAL",
+    "service": "auth-service",
+    "message": "Database connection pool exhausted. Max connections (50) reached.",
+    "allowed_roles": ["Admin", "General_Employee"]
+  },
+  {
+    "timestamp": "2026-01-15T09:14:55Z",
+    "error_code": "ERR-2003",
+    "severity": "WARNING",
+    "service": "payment-gateway",
+    "message": "Transaction timeout after 30s for merchant_id=MRC-4421. Retry initiated.",
+    "allowed_roles": ["Finance", "Admin"]
+  },
+  {
+    "timestamp": "2026-01-15T10:01:22Z",
+    "error_code": "ERR-3010",
+    "severity": "INFO",
+    "service": "hr-portal",
+    "message": "Bulk PTO approval batch job completed. 142 requests processed, 3 flagged for review.",
+    "allowed_roles": ["HR", "Admin"]
+  },
+  {
+    "timestamp": "2026-01-15T11:45:33Z",
+    "error_code": "ERR-1002",
+    "severity": "CRITICAL",
+    "service": "auth-service",
+    "message": "SSL certificate expiration warning: certificate for api.internal.corp expires in 7 days.",
+    "allowed_roles": ["Admin"]
+  },
+  {
+    "timestamp": "2026-01-15T12:22:08Z",
+    "error_code": "ERR-4001",
+    "severity": "ERROR",
+    "service": "data-pipeline",
+    "message": "ETL job 'daily_revenue_sync' failed at transformation stage. Schema mismatch in revenue_raw table.",
+    "allowed_roles": ["Finance", "Admin"]
+  },
+  {
+    "timestamp": "2026-01-15T13:09:47Z",
+    "error_code": "ERR-2004",
+    "severity": "WARNING",
+    "service": "payment-gateway",
+    "message": "Duplicate transaction detected: txn_id=TXN-88712 for amount $4,250.00. Auto-blocked.",
+    "allowed_roles": ["Finance", "Admin"]
+  },
+  {
+    "timestamp": "2026-01-15T14:33:19Z",
+    "error_code": "ERR-5001",
+    "severity": "INFO",
+    "service": "compliance-engine",
+    "message": "Annual compliance audit report generated successfully. 98.2% policy adherence score.",
+    "allowed_roles": ["HR", "Admin", "General_Employee"]
+  },
+  {
+    "timestamp": "2026-01-15T15:18:02Z",
+    "error_code": "ERR-3011",
+    "severity": "ERROR",
+    "service": "hr-portal",
+    "message": "Employee onboarding workflow stalled: missing mandatory document 'background_check' for emp_id=EMP-2291.",
+    "allowed_roles": ["HR", "Admin"]
+  },
+  {
+    "timestamp": "2026-01-15T16:42:56Z",
+    "error_code": "ERR-1003",
+    "severity": "CRITICAL",
+    "service": "auth-service",
+    "message": "Brute force attack detected from IP 192.168.14.55. Account 'svc_admin' locked after 10 failed attempts.",
+    "allowed_roles": ["Admin"]
+  },
+  {
+    "timestamp": "2026-01-15T17:55:31Z",
+    "error_code": "ERR-4002",
+    "severity": "WARNING",
+    "service": "data-pipeline",
+    "message": "Data warehouse storage at 87% capacity. Projected to exceed threshold in 14 days.",
+    "allowed_roles": ["Admin", "Finance"]
+  },
+  {
+    "timestamp": "2026-01-16T08:11:44Z",
+    "error_code": "ERR-6001",
+    "severity": "INFO",
+    "service": "notification-service",
+    "message": "Scheduled maintenance window notification sent to 1,247 active users for 2026-01-20.",
+    "allowed_roles": ["General_Employee", "Admin"]
+  },
+  {
+    "timestamp": "2026-01-16T09:28:15Z",
+    "error_code": "ERR-3012",
+    "severity": "ERROR",
+    "service": "hr-portal",
+    "message": "Payroll calculation discrepancy detected for department 'Engineering'. Overtime hours mismatch for 8 employees.",
+    "allowed_roles": ["HR", "Finance", "Admin"]
+  }
+]

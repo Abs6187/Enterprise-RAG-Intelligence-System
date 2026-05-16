@@ -1,0 +1,27 @@
+{
+  "Alice": {
+    "roles": ["HR", "Admin"],
+    "department": "Human Resources",
+    "clearance_level": "high"
+  },
+  "Bob": {
+    "roles": ["Finance"],
+    "department": "Finance & Accounting",
+    "clearance_level": "medium"
+  },
+  "Charlie": {
+    "roles": ["General_Employee"],
+    "department": "Engineering",
+    "clearance_level": "low"
+  },
+  "Diana": {
+    "roles": ["HR", "Finance", "Admin"],
+    "department": "Executive Office",
+    "clearance_level": "high"
+  },
+  "Eve": {
+    "roles": ["General_Employee"],
+    "department": "Marketing",
+    "clearance_level": "low"
+  }
+}
